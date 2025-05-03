@@ -1,9 +1,5 @@
 Rails.application.routes.draw do
-  namespace :api do
-    namespace :v1 do
-      get "hello", to: "hello#index"
-    end
-  end
+  resources :job_applications
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.
