@@ -30,7 +30,7 @@ gem "kamal", require: false
 gem "thruster", require: false
 gem "rack-cors"
 gem "bcrypt", "~> 3.1.7"
-gem 'rack-cors', require: 'rack/cors'
+gem "rack-cors", require: "rack/cors"
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
