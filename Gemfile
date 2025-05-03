@@ -52,3 +52,7 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
   gem "standard"
 end
+
+group :test do
+  gem "factory_bot_rails"
+end
